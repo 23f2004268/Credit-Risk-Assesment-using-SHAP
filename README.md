@@ -44,7 +44,8 @@ The model was trained on **32,581 real-world loan records** and uses a **custom-
 
 ## 🎬 Demo
 
-> *(Add a screenshot or GIF of your app here)*
+> *<img width="1140" height="1002" alt="Snap" src="https://github.com/user-attachments/assets/ddacedeb-746d-41f2-b72f-6a5e6fa96bc6" />
+*
 
 ```
 ┌─────────────────────────────────────────────┐
