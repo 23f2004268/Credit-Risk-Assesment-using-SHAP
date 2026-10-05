@@ -1,40 +1,68 @@
-# 🚀 Credit Risk Assessment using SHAP & Machine Learning
+<div align="center">
+  <img src="https://media.giphy.com/media/L8K62iDadwAIE/giphy.gif" alt="Data AI Banner" width="100%">
+  
+  <h1>💳 Credit Risk Assessment with Explainable AI (SHAP) 🚀</h1>
+  <p><i>An End-to-End Machine Learning Web Application bridging the gap between accuracy and transparency in Fintech.</i></p>
 
-An end-to-end Machine Learning web application designed to evaluate credit risk for loan applicants. This project not only predicts whether an applicant is a high or low credit risk but also uses **SHAP (SHapley Additive exPlanations)** to provide transparent, interpretable reasons behind every prediction.
+  <!-- Badges -->
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+    <img src="https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white" alt="Render"/>
+  </p>
+</div>
 
-## 🌟 Key Features
-* **Predictive Modeling:** Accurately classifies credit risk using a trained ML model (`credit_risk_model.pkl`).
-* **Optimized Decision Making:** Utilizes a custom classification threshold (`best_threshold.pkl`) to balance precision and recall effectively.
-* **Explainable AI (XAI):** Integrates SHAP to demystify the black-box model, showing exactly which features (e.g., income, credit history) influenced the final decision.
-* **Interactive Web Interface:** A clean, user-friendly frontend built with HTML, CSS, and vanilla JavaScript.
-* **REST API Backend:** Fast and robust backend powered by Python (`main.py`) to handle frontend requests and model inference.
-* **Cloud Deployment-Ready:** Pre-configured with `render.yaml` and `runtime.txt` for seamless CI/CD deployment on Render.
+---
 
-## 🛠️ Tech Stack
-* **Core:** Python 3.x
-* **Machine Learning:** Scikit-Learn / XGBoost, Pandas, NumPy
-* **Explainability:** SHAP
-* **Backend:** FastAPI / Flask (via `main.py`)
-* **Frontend:** HTML5, CSS3, JavaScript (`static/` directory)
-* **Deployment:** Render
+## ⚡ Overview
 
-## 📁 Project Structure
-├── static/                 # Frontend assets (UI)
-│   ├── index.html          # Main web page
-│   ├── style.css           # Stylesheet
-│   └── script.js           # Frontend logic & API integration
-├── main.py                 # Backend application/API routing
-├── Credit_Risk.ipynb       # Jupyter Notebook for EDA, model training & SHAP
-├── credit_risk_dataset.csv # Raw dataset used for training
-├── credit_risk_model.pkl   # Serialized trained machine learning model
-├── best_threshold.pkl      # Saved optimal probability threshold
-├── requirements.txt        # Python dependencies
-├── runtime.txt             # Python runtime version for cloud hosting
-└── render.yaml             # Render deployment configuration
+Evaluating credit risk shouldn't be a black box. This project not only predicts whether a loan applicant is a **High Risk** or **Low Risk** candidate but also explains **WHY** using **SHAP (SHapley Additive exPlanations)**. 
 
-## ⚙️ Local Installation & Setup
+<div align="center">
+  <!-- Replace the src below with your actual project working GIF -->
+  <img src="https://cdn.dribbble.com/users/1355613/screenshots/15252730/media/28f348daf9ebb7dd9808f23ece29d91f.gif" alt="Project Demo" width="700" style="border-radius: 10px;">
+</div>
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/Credit-Risk-Assesment-using-SHAP.git](https://github.com/your-username/Credit-Risk-Assesment-using-SHAP.git)
-   cd Credit-Risk-Assesment-using-SHAP
+---
+
+## ✨ Standout Features
+
+- 🎯 **High-Accuracy Predictions**: Powered by robust ML algorithms tailored for financial datasets.
+- 🧠 **Explainable AI (XAI)**: Visualizes the impact of each feature (e.g., income, age, credit history) on the final decision using SHAP.
+- 🎛️ **Optimized Thresholds**: Implements custom decision boundaries (`best_threshold.pkl`) to balance precision and recall.
+- 🌐 **Interactive Web UI**: A sleek frontend to input applicant details and view real-time risk analysis.
+- ☁️ **Cloud-Ready**: Pre-configured `render.yaml` for instant deployment.
+
+---
+
+## 🛠️ Architecture & Tech Stack
+
+<details>
+<summary><b>Click to expand the Tech Stack! 🚀</b></summary>
+
+| Category | Technology |
+| :--- | :--- |
+| **Backend & API** | Python, FastAPI / Flask (`main.py`) |
+| **Machine Learning** | Scikit-Learn, Pandas, NumPy, XGBoost |
+| **Model Interpretability** | SHAP (SHapley Additive exPlanations) |
+| **Frontend UI** | HTML5, CSS3, Vanilla JS (`static/`) |
+| **Deployment** | Render (`render.yaml`, `runtime.txt`) |
+
+</details>
+
+<details>
+<summary><b>Click to expand the Directory Structure! 📂</b></summary>
+
+```text
+📦 Credit-Risk-Assesment
+ ┣ 📂 static                 # Frontend assets (UI)
+ ┃ ┣ 📜 index.html           
+ ┃ ┣ 📜 style.css            
+ ┃ ┗ 📜 script.js            
+ ┣ 📜 main.py                # Backend server & API endpoints
+ ┣ 📜 Credit_Risk.ipynb      # EDA, Model Training & SHAP testing
+ ┣ 📜 credit_risk_model.pkl  # Trained ML Model
+ ┣ 📜 best_threshold.pkl     # Optimized probability threshold
+ ┣ 📜 requirements.txt       # Dependencies
+ ┗ 📜 render.yaml            # CI/CD Deployment Config
