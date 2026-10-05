@@ -1,0 +1,40 @@
+# 🚀 Credit Risk Assessment using SHAP & Machine Learning
+
+An end-to-end Machine Learning web application designed to evaluate credit risk for loan applicants. This project not only predicts whether an applicant is a high or low credit risk but also uses **SHAP (SHapley Additive exPlanations)** to provide transparent, interpretable reasons behind every prediction.
+
+## 🌟 Key Features
+* **Predictive Modeling:** Accurately classifies credit risk using a trained ML model (`credit_risk_model.pkl`).
+* **Optimized Decision Making:** Utilizes a custom classification threshold (`best_threshold.pkl`) to balance precision and recall effectively.
+* **Explainable AI (XAI):** Integrates SHAP to demystify the black-box model, showing exactly which features (e.g., income, credit history) influenced the final decision.
+* **Interactive Web Interface:** A clean, user-friendly frontend built with HTML, CSS, and vanilla JavaScript.
+* **REST API Backend:** Fast and robust backend powered by Python (`main.py`) to handle frontend requests and model inference.
+* **Cloud Deployment-Ready:** Pre-configured with `render.yaml` and `runtime.txt` for seamless CI/CD deployment on Render.
+
+## 🛠️ Tech Stack
+* **Core:** Python 3.x
+* **Machine Learning:** Scikit-Learn / XGBoost, Pandas, NumPy
+* **Explainability:** SHAP
+* **Backend:** FastAPI / Flask (via `main.py`)
+* **Frontend:** HTML5, CSS3, JavaScript (`static/` directory)
+* **Deployment:** Render
+
+## 📁 Project Structure
+├── static/                 # Frontend assets (UI)
+│   ├── index.html          # Main web page
+│   ├── style.css           # Stylesheet
+│   └── script.js           # Frontend logic & API integration
+├── main.py                 # Backend application/API routing
+├── Credit_Risk.ipynb       # Jupyter Notebook for EDA, model training & SHAP
+├── credit_risk_dataset.csv # Raw dataset used for training
+├── credit_risk_model.pkl   # Serialized trained machine learning model
+├── best_threshold.pkl      # Saved optimal probability threshold
+├── requirements.txt        # Python dependencies
+├── runtime.txt             # Python runtime version for cloud hosting
+└── render.yaml             # Render deployment configuration
+
+## ⚙️ Local Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/Credit-Risk-Assesment-using-SHAP.git](https://github.com/your-username/Credit-Risk-Assesment-using-SHAP.git)
+   cd Credit-Risk-Assesment-using-SHAP
