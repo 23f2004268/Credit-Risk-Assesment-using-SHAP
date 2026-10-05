@@ -52,13 +52,13 @@ The model was trained on **32,581 real-world loan records** and uses a **custom-
 ├─────────────────────────────────────────────┤
 │  01 — Applicant                             │
 │  02 — Loan Request                          │
-│  03 — Credit Bureau File                   │
+│  03 — Credit Bureau File                    │
 │                                             │
 │         [ Assess Risk ]                     │
 ├─────────────────────────────────────────────┤
-│   ◉ 34.2%          ┌──────────┐            │
-│   default prob     │ LOW RISK │            │
-│                    └──────────┘            │
+│   ◉ 34.2%          ┌──────────┐             │
+│   default prob     │ LOW RISK │             │
+│                    └──────────┘             │
 └─────────────────────────────────────────────┘
 ```
 
@@ -275,7 +275,7 @@ This will regenerate `credit_risk_model.pkl` and `best_threshold.pkl`.
 
 ## ☁️ Deployment
 
-This project is deployed on **[Render.com](https://render.com)** using the configuration in `render.yaml`.
+This project is deployed on **[Render.com](https://credit-risk-assesment-using-shap-1-ok7w.onrender.com)** using the configuration in `render.yaml`.
 
 ```yaml
 services:
