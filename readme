@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/L8K62iDadwAIE/giphy.gif" alt="Data AI Banner" width="100%">
+  <img src="[https://media.giphy.com/media/L8K62iDadwAIE/giphy.gif](https://media.giphy.com/media/L8K62iDadwAIE/giphy.gif)" alt="Data AI Banner" width="100%">
   
   <h1>💳 Credit Risk Assessment with Explainable AI (SHAP) 🚀</h1>
   <p><i>An End-to-End Machine Learning Web Application bridging the gap between accuracy and transparency in Fintech.</i></p>
 
   <!-- Badges -->
   <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-    <img src="https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white" alt="Render"/>
+    <img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)" alt="Python"/>
+    <img src="[https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)" alt="Scikit-Learn"/>
+    <img src="[https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)" alt="JavaScript"/>
+    <img src="[https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)" alt="Render"/>
   </p>
 </div>
 
@@ -20,8 +20,7 @@
 Evaluating credit risk shouldn't be a black box. This project not only predicts whether a loan applicant is a **High Risk** or **Low Risk** candidate but also explains **WHY** using **SHAP (SHapley Additive exPlanations)**. 
 
 <div align="center">
-  <!-- Replace the src below with your actual project working GIF -->
-  <img src="https://cdn.dribbble.com/users/1355613/screenshots/15252730/media/28f348daf9ebb7dd9808f23ece29d91f.gif" alt="Project Demo" width="700" style="border-radius: 10px;">
+  <img src="[https://cdn.dribbble.com/users/1355613/screenshots/15252730/media/28f348daf9ebb7dd9808f23ece29d91f.gif](https://cdn.dribbble.com/users/1355613/screenshots/15252730/media/28f348daf9ebb7dd9808f23ece29d91f.gif)" alt="Project Demo" width="700" style="border-radius: 10px;">
 </div>
 
 ---
@@ -56,13 +55,13 @@ Evaluating credit risk shouldn't be a black box. This project not only predicts 
 
 ```text
 📦 Credit-Risk-Assesment
- ┣ 📂 static                 # Frontend assets (UI)
+ ┣ 📂 static                 
  ┃ ┣ 📜 index.html           
  ┃ ┣ 📜 style.css            
  ┃ ┗ 📜 script.js            
- ┣ 📜 main.py                # Backend server & API endpoints
- ┣ 📜 Credit_Risk.ipynb      # EDA, Model Training & SHAP testing
- ┣ 📜 credit_risk_model.pkl  # Trained ML Model
- ┣ 📜 best_threshold.pkl     # Optimized probability threshold
- ┣ 📜 requirements.txt       # Dependencies
- ┗ 📜 render.yaml            # CI/CD Deployment Config
+ ┣ 📜 main.py                
+ ┣ 📜 Credit_Risk.ipynb      
+ ┣ 📜 credit_risk_model.pkl  
+ ┣ 📜 best_threshold.pkl     
+ ┣ 📜 requirements.txt       
+ ┗ 📜 render.yaml
