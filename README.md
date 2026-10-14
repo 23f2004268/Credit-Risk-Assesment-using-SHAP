@@ -9,7 +9,7 @@
 
 **An underwriting desk for consumer loan applications — powered by XGBoost and SHAP.**
 
-[Live Demo](#) · [API Docs](#api-reference) · [Report a Bug](../../issues)
+[Live Demo](https://credit-risk-assesment-using-shap-1-ok7w.onrender.com/) · [API Docs](#api-reference) · [Report a Bug](../../issues)
 
 </div>
 
